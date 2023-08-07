@@ -113,7 +113,7 @@ nmap <silent> <Plug>CommentaryUndo :echoerr "Change your <Plug>CommentaryUndo ma
 if !hasmapto('<Plug>Commentary') || maparg('gc','n') ==# ''
   xmap <leader>c  <Plug>Commentary
   nmap <leader>c  <Plug>Commentary
-  omap <leader>c  <Plug>Commentary
+  omap ic  <Plug>Commentary
   nmap <leader>cc <Plug>CommentaryLine
   nmap <leader>cu <Plug>Commentary<Plug>Commentary
 endif
